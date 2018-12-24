@@ -8,6 +8,7 @@ TagManager:
   - goodFood
   - badFood
   - weapon
+  - item
   layers:
   - Default
   - TransparentFX

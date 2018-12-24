@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1331908805878913644}
   - component: {fileID: 6684658763529973540}
   - component: {fileID: 5388810833721146149}
+  - component: {fileID: 4856373113711157676}
   m_Layer: 0
   m_Name: sword
-  m_TagString: weapon
+  m_TagString: item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,3 +109,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4856373113711157676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7248863675201471708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce0c2b916a2fed448b0dc1564d2a298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentItemType: 2
